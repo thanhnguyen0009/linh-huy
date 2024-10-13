@@ -1,0 +1,405 @@
+@font-face {
+  font-family: 'TP Le Major';
+  src: url('../thiep/fonts/TPLeMajor-Regular.woff2') format('woff2'),
+      url('../thiep/fonts/TPLeMajor-Regular.woff') format('woff'),
+      url('../thiep/fonts/TPLeMajor-Regular.svg#TPLeMajor-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham Ultra';
+  src: url('../thiep/fonts/SVN-GothamUltra.woff2') format('woff2'),
+      url('../thiep/fonts/SVN-GothamUltra.woff') format('woff'),
+      url('../thiep/fonts/SVN-GothamUltra.svg#SVN-GothamUltra') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../thiep/fonts/SVN-Gotham.woff2') format('woff2'),
+      url('../thiep/fonts/SVN-Gotham.woff') format('woff'),
+      url('../thiep/fonts/SVN-Gotham.svg#SVN-Gotham') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../thiep/fonts/SVN-GothamBlack.woff2') format('woff2'),
+      url('../thiep/fonts/SVN-GothamBlack.woff') format('woff'),
+      url('../thiep/fonts/SVN-GothamBlack.svg#SVN-GothamBlack') format('svg');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham Book';
+  src: url('../thiep/fonts/SVN-GothamBook.woff2') format('woff2'),
+      url('../thiep/fonts/SVN-GothamBook.woff') format('woff'),
+      url('../thiep/fonts/SVN-GothamBook.svg#SVN-GothamBook') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../thiep/fonts/SVN-GothamThin.woff2') format('woff2'),
+      url('../thiep/fonts/SVN-GothamThin.woff') format('woff'),
+      url('../thiep/fonts/SVN-GothamThin.svg#SVN-GothamThin') format('svg');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../thiep/fonts/SVN-GothamLight.woff2') format('woff2'),
+      url('../thiep/fonts/SVN-GothamLight.woff') format('woff'),
+      url('../thiep/fonts/SVN-GothamLight.svg#SVN-GothamLight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../thiep/fonts/SVN-GothamBoldItalic.woff2') format('woff2'),
+      url('../thiep/fonts/SVN-GothamBoldItalic.woff') format('woff'),
+      url('../thiep/fonts/SVN-GothamBoldItalic.svg#SVN-GothamBoldItalic') format('svg');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../thiep/fonts/SVN-GothamItalic.woff2') format('woff2'),
+      url('../thiep/fonts/SVN-GothamItalic.woff') format('woff'),
+      url('../thiep/fonts/SVN-GothamItalic.svg#SVN-GothamItalic') format('svg');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../thiep/fonts/SVN-GothamBlackItalic.woff2') format('woff2'),
+      url('../thiep/fonts/SVN-GothamBlackItalic.woff') format('woff'),
+      url('../thiep/fonts/SVN-GothamBlackItalic.svg#SVN-GothamBlackItalic') format('svg');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../thiep/fonts/SVN-GothamLight.woff2') format('woff2'),
+      url('../thiep/fonts/SVN-GothamLight.woff') format('woff'),
+      url('../thiep/fonts/SVN-GothamLight.svg#SVN-GothamLight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../thiep/fonts/SVN-GothamBold.woff2') format('woff2'),
+      url('../thiep/fonts/SVN-GothamBold.woff') format('woff'),
+      url('../thiep/fonts/SVN-GothamBold.svg#SVN-GothamBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../thiep/fonts/SVN-GothamBold.woff2') format('woff2'),
+      url('../thiep/fonts/SVN-GothamBold.woff') format('woff'),
+      url('../thiep/fonts/SVN-GothamBold.svg#SVN-GothamBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../thiep/fonts/SVN-GothamLightItalic.woff2') format('woff2'),
+      url('../thiep/fonts/SVN-GothamLightItalic.woff') format('woff'),
+      url('../thiep/fonts/SVN-GothamLightItalic.svg#SVN-GothamLightItalic') format('svg');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../thiep/fonts/SVN-GothamLightItalic.woff2') format('woff2'),
+      url('../thiep/fonts/SVN-GothamLightItalic.woff') format('woff'),
+      url('../thiep/fonts/SVN-GothamLightItalic.svg#SVN-GothamLightItalic') format('svg');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham Ultra';
+  src: url('../thiep/fonts/SVN-GothamUltraItalic.woff2') format('woff2'),
+      url('../thiep/fonts/SVN-GothamUltraItalic.woff') format('woff'),
+      url('../thiep/fonts/SVN-GothamUltraItalic.svg#SVN-GothamUltraItalic') format('svg');
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham Book';
+  src: url('../thiep/fonts/SVN-GothamBookItalic.woff2') format('woff2'),
+      url('../thiep/fonts/SVN-GothamBookItalic.woff') format('woff'),
+      url('../thiep/fonts/SVN-GothamBookItalic.svg#SVN-GothamBookItalic') format('svg');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'SVN-Gotham';
+  src: url('../thiep/fonts/SVN-GothamThinItalic.woff2') format('woff2'),
+      url('../thiep/fonts/SVN-GothamThinItalic.woff') format('woff'),
+      url('../thiep/fonts/SVN-GothamThinItalic.svg#SVN-GothamThinItalic') format('svg');
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container{
+    width: 480px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; 
+  }
+.box-container{
+  height: 950px;
+  width: 100%;
+  background-image: url('../thiep/fonts/./anh/IMG_1073.JPG');
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.box-top{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* z-index: 1; */
+} 
+
+.img-top{
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.img-top1{
+  /* margin-top: -100px; */
+  width: 80%;
+}
+
+.lb-top2{
+  font-family: 'Lora';
+  font-size: 20px;
+}
+
+.box-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.img-btn {
+  width: 60%; 
+}
+
+  .box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 80px;
+  }
+
+  .click{
+    width: 400px;
+    font-family: 'SVN-Gotham';
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: 500;
+    background-color: #111;
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+
+
+  .box-video{
+    width: 20%;
+    height: 100px;
+    background-color: #fff;
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 5px 10px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+  }
+
+  a{
+    text-decoration: none;
+    color: #111;
+    font-family: 'SVN-Gotham';
+    font-size: 10px;
+  }
+
+  .img-box{
+    width: 60%;
+  }
+
+
+
+
+  /* The Modal (background) */
+.ebcf_modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.ebcf_modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+}
+
+.box-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-cnt1{
+  width: 70%;
+}
+
+.lb-cnt2{
+  font-family: 'Lora';
+}
+
+.lb-cnt3{
+  font-family: 'Lora';
+  font-weight: 700;
+  font-size: 28px;
+}
+
+
+.img-cnt{
+  width: 100%;
+}
+
+/* The Close Button */
+.ebcf_close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.ebcf_close:hover,
+.ebcf_close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+  
+
+
+  @media (max-width: 480px){
+    .container {
+        width: 100%;
+    }
+    .box{
+        padding-top: 10%;
+    }
+    .ebcf_modal-content {
+      width: 80%;
+    }
+    
+    .box-content{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .lb-cnt1{
+      font-size: 25px;
+    }
+    .lb-cnt2{
+     font-size: 15px; 
+    }
+    .lb-cnt3{
+      font-size: 20px;
+    }
+    .box-container{
+      height: 850px;
+    }
+    .box-top{
+      margin-top: 50px;
+    }
+    .lb-cnt3{
+      font-size: 17px;
+    }
+  }
+  
